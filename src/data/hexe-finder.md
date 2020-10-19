@@ -26,4 +26,5 @@ effortRating: "2"
 Выпекать 15-20 минут при 180 градусах.  
  
 
-Источник: https://www.google.com.ua/amp/s/www.edimdoma.ru/retsepty/84727-pechenie-vedminy-paltsy.amp
+## Источник: 
+https://www.google.com.ua/amp/s/www.edimdoma.ru/retsepty/84727-pechenie-vedminy-paltsy.amp
