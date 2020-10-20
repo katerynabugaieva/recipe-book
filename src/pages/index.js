@@ -32,10 +32,14 @@ export default function Home({ data }) {
     <Layout>
         <ToggleTheme/>
       <div>
-        <h3>
-          Хочется вкусненького...
-        </h3>
         <h4> Доступно рецептов: {data.allMarkdownRemark.totalCount}</h4>
+<div>
+  <input type="checkbox"/><label>Breakfast</label>
+  <input type="checkbox"/><label>Without backing</label>
+  <input type="checkbox"/><label>Gasts</label>
+</div>
+
+
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
