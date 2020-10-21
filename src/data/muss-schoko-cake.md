@@ -56,4 +56,5 @@ effortRating: "5"
 
 Выложить бисквит и залить муссом. В холодильник до застывания (порядка 4 часов).
 
-Источник: https://www.iamcook.ru/showrecipe/7957
+## Источник: 
+https://www.iamcook.ru/showrecipe/7957
