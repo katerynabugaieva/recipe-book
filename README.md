@@ -41,8 +41,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/recipe-book)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/recipe-book)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://nifty-jennings-41ff87.netlify.app/)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
