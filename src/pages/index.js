@@ -16,7 +16,7 @@ export default function Home({ data }) {
         >
           Amazing Pandas Eating Things
         </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <h4>{data.allMarkdownRemark.totalCount} Рецепты</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -37,10 +37,10 @@ export default function Home({ data }) {
                     color: #555;
                   `}
                 >
-                  — {node.frontmatter.date}
+                  — {node.frontmatter.type}
                 </span>
               </h3>
-              <p>{node.excerpt}</p>
+              <p>{node.frontmatter.comment}</p>
             </Link>
           </div>
         ))}
@@ -51,19 +51,19 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark {
       totalCount
       edges {
         node {
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            type
+            comment
           }
           fields {
             slug
           }
-          excerpt
         }
       }
     }
