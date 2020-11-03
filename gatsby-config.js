@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Список рецептов`,
+    title: `Хочется вкусненького...`,
   },
   plugins: [
     `gatsby-plugin-emotion`,
