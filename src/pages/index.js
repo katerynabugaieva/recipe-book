@@ -9,24 +9,16 @@ import { ThemeContext } from "../providers/ThemeProvider"
 
 export default function Home({ data }) {
   const { theme } = useContext(ThemeContext);
-  console.log(
-    "index", theme
-  )
+ 
   return (
+    <Wrapper theme={theme}>
     <Layout>
-      <Wrapper theme={theme}>
         <ToggleTheme/>
-      </Wrapper>
       <div>
-        <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
+        <h3>
           Хочется вкусненького...
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Рецепты</h4>
+        </h3>
+        <h4> Доступно несколько рецептов: {data.allMarkdownRemark.totalCount}</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -36,7 +28,7 @@ export default function Home({ data }) {
                 color: inherit;
               `}
             >
-              <h3
+              <h5
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
@@ -49,13 +41,14 @@ export default function Home({ data }) {
                 >
                   — {node.frontmatter.type}
                 </span>
-              </h3>
+              </h5>
               <p>{node.frontmatter.comment}</p>
             </Link>
           </div>
         ))}
       </div>
     </Layout>
+      </Wrapper>
   )
 }
 

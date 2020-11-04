@@ -1,6 +1,23 @@
 import styled from 'styled-components';
+import { rhythm } from '../utils/typography';
 
 export const Wrapper = styled.div`
-  color: ${({ theme }) => (theme === 'light' ? '#1979a9' : '#e07b39')};
-  background-color: ${({ theme }) => (theme === 'light' ? 'lavenderblush' : '#1c100b')};
+margin: 0 auto;
+max-width: 700px;
+padding: ${rhythm(2)};
+padding-top: ${rhythm(1.5)};
+  background-color: ${({ theme }) => (theme === 'light' ? 'lavenderblush' : '#000')};
+  
+  h3, h4, p{
+    color: ${({ theme }) => (theme === 'dark' ? '#F0FFFF' : '#212121')};
+  }
+
+  h5 {
+    color: ${({ theme }) => (theme === 'dark' ? '#e07b39' : '#1979a9')};
+  }
+
+  p {
+    font-size: 12px;
+  }
+ 
 `;
