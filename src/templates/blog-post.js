@@ -12,7 +12,7 @@ const Items = styled.li`
     border-radius: 16px;
     border: 0;
     padding: 9px 14px;
-    margin: 12px;
+    margin: 0px 12px 0px 0px;
   }
 `;
 
