@@ -25,5 +25,15 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Tasty`,
+        short_name: `Tasty`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: `static/cake.svg`
+      },
+    },
   ],
 }
