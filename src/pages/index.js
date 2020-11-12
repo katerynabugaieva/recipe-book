@@ -51,13 +51,18 @@ export default function Home({ data }) {
                 `}
               >
                 {node.frontmatter.title}{" "}
-                <span>
-                  — 
-                   {node.frontmatter.tags && node.frontmatter.tags.map((tag, index) => (
+                <span css={css`
+                  color: #555;
+                  font-size: 10px;
+                `}>
+                  — вкус/морочность {node.frontmatter.tasteRating}/{node.frontmatter.effortRating}
+                  
+                </span>
+               <p> 
+                  {node.frontmatter.tags && node.frontmatter.tags.map((tag, index) => (
           <Tags key={index}>{tag},</Tags>
         ))}
-                </span>
-                
+                </p>
               </h5>
               <p css={css`
                 margin: 0;
@@ -83,6 +88,8 @@ export const query = graphql`
             title
             type
             comment
+            tasteRating
+            effortRating
             tags
           }
           fields {

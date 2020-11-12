@@ -25,6 +25,8 @@ export default function BlogPost({ data }) {
         {post.frontmatter.tags && post.frontmatter.tags.map((tag, index) => (
           <Items key={index}>{tag}</Items>
         ))}
+        <br/>
+        <br/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
