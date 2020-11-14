@@ -79,7 +79,8 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: { order: [DESC, ASC], fields: [frontmatter___tasteRating, frontmatter___effortRating] }){
       totalCount
       edges {
         node {
