@@ -22,7 +22,7 @@ export default function BlogPost({ data }) {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        {post.frontmatter.tags.map((tag, index) => (
+        {post.frontmatter.tags && post.frontmatter.tags.map((tag, index) => (
           <Items key={index}>{tag}</Items>
         ))}
         <div dangerouslySetInnerHTML={{ __html: post.html }} />

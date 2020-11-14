@@ -6,6 +6,23 @@ import Layout from "../components/layout"
 import ToggleTheme from "../components/theme/ToggleTheme"
 import { Wrapper } from "../styles/styles"
 import { ThemeContext } from "../providers/ThemeProvider"
+import styled from 'styled-components';
+
+const Tags = styled.li`
+    display: inline;
+    font-size: 9px;
+    color: #555;
+    padding: 0px 5px 0px 0px;
+  }
+`;
+
+const Divider = styled.div`
+   width: 100%;
+   border: 1px dotted #555;
+   opacity: 50%;
+   margin: 10px 0px;
+  }
+`;
 
 export default function Home({ data }) {
   const { theme } = useContext(ThemeContext);
@@ -18,7 +35,7 @@ export default function Home({ data }) {
         <h3>
           Хочется вкусненького...
         </h3>
-        <h4> Доступно несколько рецептов: {data.allMarkdownRemark.totalCount}</h4>
+        <h4> Доступно рецептов: {data.allMarkdownRemark.totalCount}</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -34,16 +51,19 @@ export default function Home({ data }) {
                 `}
               >
                 {node.frontmatter.title}{" "}
-                <span
-                  css={css`
-                    color: #555;
-                  `}
-                >
-                  — {node.frontmatter.type}
+                <span>
+                  — 
+                   {node.frontmatter.tags && node.frontmatter.tags.map((tag, index) => (
+          <Tags key={index}>{tag},</Tags>
+        ))}
                 </span>
+                
               </h5>
-              <p>{node.frontmatter.comment}</p>
+              <p css={css`
+                margin: 0;
+              `}>{node.frontmatter.comment}</p>
             </Link>
+            <Divider/>
           </div>
         ))}
       </div>
@@ -63,6 +83,7 @@ export const query = graphql`
             title
             type
             comment
+            tags
           }
           fields {
             slug
