@@ -24,6 +24,13 @@ const Divider = styled.div`
   }
 `;
 
+const Label = styled.label`
+   margin: 0px 10px;
+   color: ${({ theme }) => (theme === 'dark' ? 'white' : '#212121')};
+  }
+`;
+
+
 export default function Home({ data }) {
   const { theme } = useContext(ThemeContext);
  
@@ -33,10 +40,10 @@ export default function Home({ data }) {
         <ToggleTheme/>
       <div>
         <h4> Доступно рецептов: {data.allMarkdownRemark.totalCount}</h4>
-<div>
-  <input type="checkbox"/><label>Breakfast</label>
-  <input type="checkbox"/><label>Without backing</label>
-  <input type="checkbox"/><label>Gasts</label>
+<div style={{marginBottom: "20px"}}>
+  <input type="checkbox"/><Label>Breakfast</Label>
+  <input type="checkbox"/><Label>Without backing</Label>
+  <input type="checkbox"/><Label>Gasts</Label>
 </div>
 
 
