@@ -3,8 +3,6 @@ import { rhythm } from '../utils/typography';
 
 export const Wrapper = styled.div`
 margin: 0 auto;
-max-width: 700px;
-padding: ${rhythm(2)};
 padding-top: ${rhythm(1.5)};
   background-color: ${({ theme }) => (theme === 'light' ? 'lavenderblush' : '#000')};
   
