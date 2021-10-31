@@ -3,7 +3,6 @@ import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
-import ToggleTheme from "../components/theme/ToggleTheme"
 import { Wrapper } from "../styles/styles"
 import { ThemeContext } from "../providers/ThemeProvider"
 import styled from "styled-components"
@@ -36,7 +35,6 @@ export default function Home({ data }) {
   return (
     <Wrapper theme={theme}>
       <Layout>
-        <ToggleTheme />
         <div>
           <h4> Доступно рецептов: {data.allMarkdownRemark.totalCount}</h4>
           <div style={{ marginBottom: "20px" }}></div>
