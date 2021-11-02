@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Wrapper = styled.button`
   background: none;
   border: none;
   cursor: pointer;
   transition: 0.3s all;
-
+  float: right;
   &:focus {
     outline: none;
     transition: 0.3s all;
@@ -22,11 +22,11 @@ export const Wrapper = styled.button`
   h1 {
     margin-bottom: 1rem;
     font-size: 26pt;
-    color: ${({ theme }) => (theme === 'dark' ? '#fff' : '#212121')};
+    color: ${({ theme }) => (theme === "dark" ? "#fff" : "#212121")};
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: ${({ theme }) =>
+        theme === "light" ? "unset" : "difference"};
     }
   }
-`;
-
+`
