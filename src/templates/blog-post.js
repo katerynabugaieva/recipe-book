@@ -1,7 +1,7 @@
+import Layout from "../components/layout"
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout";
-import styled from 'styled-components';
+import styled from "styled-components"
 
 const Items = styled.li`
     display: inline;
@@ -14,7 +14,7 @@ const Items = styled.li`
     padding: 9px 14px;
     margin: 0px 12px 0px 0px;
   }
-`;
+`
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
@@ -22,11 +22,12 @@ export default function BlogPost({ data }) {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        {post.frontmatter.tags && post.frontmatter.tags.map((tag, index) => (
-          <Items key={index}>{tag}</Items>
-        ))}
-        <br/>
-        <br/>
+        {post.frontmatter.tags &&
+          post.frontmatter.tags.map((tag, index) => (
+            <Items key={index}>{tag}</Items>
+          ))}
+        <br />
+        <br />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
