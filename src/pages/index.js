@@ -1,10 +1,11 @@
-import React, { useContext } from "react"
-import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+import React, { useContext } from "react"
+
 import Layout from "../components/layout"
-import { Wrapper } from "../styles/styles"
 import { ThemeContext } from "../providers/ThemeProvider"
+import { Wrapper } from "../styles/styles"
+import { css } from "@emotion/core"
+import { rhythm } from "../utils/typography"
 import styled from "styled-components"
 
 const Tags = styled.li`
