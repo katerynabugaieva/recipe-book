@@ -15,6 +15,14 @@
     gatsby develop
     ```
 
+    OR
+
+    ````
+    npm run develop
+    ```
+
+    ````
+
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
