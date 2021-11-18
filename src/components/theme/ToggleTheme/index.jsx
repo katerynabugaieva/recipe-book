@@ -1,19 +1,17 @@
-import React, { useContext } from 'react';
-import sunIcon from '../../../assets/icons/sun.svg';
-import moonIcon from '../../../assets/icons/moon.svg';
-import { Wrapper } from './styles';
-import { ThemeContext } from '../../../providers/ThemeProvider';
+import React, { useContext } from "react"
+
+import { ThemeContext } from "../../../providers/ThemeProvider"
+import { Wrapper } from "./styles"
+import moonIcon from "../../../assets/icons/moon.svg"
+import sunIcon from "../../../assets/icons/sun.svg"
 
 const ToggleTheme = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
-  console.log(
-    "toggletheme", theme
-  )
+  const { theme, toggleTheme } = useContext(ThemeContext)
   return (
     <Wrapper type="button" onClick={toggleTheme}>
-      <img src={theme === 'light' ? moonIcon : sunIcon} alt={theme} />
+      <img src={theme === "light" ? moonIcon : sunIcon} alt={theme} />
     </Wrapper>
-  );
-};
+  )
+}
 
-export default ToggleTheme;
+export default ToggleTheme
