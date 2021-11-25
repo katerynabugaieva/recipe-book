@@ -28,7 +28,6 @@ export default function Layout({ children }) {
           padding-top: ${rhythm(1.5)};
         `}
       >
-        <ToggleTheme />
 
         <Link to={`/`}>
           <h4
@@ -46,3 +45,6 @@ export default function Layout({ children }) {
     </Wrapper>
   )
 }
+
+
+// <ToggleTheme />
