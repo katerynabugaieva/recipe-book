@@ -1,10 +1,11 @@
+import { Link, graphql, useStaticQuery } from "gatsby"
 import React, { useContext } from "react"
-import { css } from "@emotion/core"
-import { useStaticQuery, Link, graphql } from "gatsby"
 
-import { rhythm } from "../utils/typography"
 import { ThemeContext } from "../providers/ThemeProvider"
+import ToggleTheme from "./theme/ToggleTheme"
 import { Wrapper } from "../styles/styles"
+import { css } from "@emotion/core"
+import { rhythm } from "../utils/typography"
 
 export default function Layout({ children }) {
   const { theme } = useContext(ThemeContext)
@@ -28,7 +29,7 @@ export default function Layout({ children }) {
           padding-top: ${rhythm(1.5)};
         `}
       >
-
+        <ToggleTheme />
         <Link to={`/`}>
           <h4
             css={css`
@@ -45,6 +46,3 @@ export default function Layout({ children }) {
     </Wrapper>
   )
 }
-
-
-// <ToggleTheme />
