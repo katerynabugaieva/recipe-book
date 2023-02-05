@@ -12,6 +12,7 @@
 
     ```shell
     cd recipe-book/
+    npm i
     gatsby develop
     ```
 
