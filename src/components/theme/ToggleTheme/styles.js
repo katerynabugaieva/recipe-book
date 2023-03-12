@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Wrapper = styled.button`
+export const ToggleButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
@@ -26,7 +26,7 @@ export const Wrapper = styled.button`
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) =>
-        theme === "light" ? "unset" : "difference"};
+    theme === "light" ? "unset" : "difference"};
     }
   }
 `

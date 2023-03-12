@@ -27,6 +27,7 @@ export default function Layout({ children }) {
           margin: 0 auto;
           padding: ${rhythm(2)};
           padding-top: ${rhythm(1.5)};
+          height: 100wh;
         `}
       >
         <ToggleTheme />
