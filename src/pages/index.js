@@ -48,7 +48,7 @@ export default function Home({ data }) {
                   color: inherit;
                 `}
               >
-                <h5
+                <h4
                   css={css`
                     margin-bottom: ${rhythm(1 / 4)};
                   `}
@@ -69,14 +69,14 @@ export default function Home({ data }) {
                         <Tags key={index}>{tag},</Tags>
                       ))}
                   </p>
-                </h5>
-                <h4
+                </h4>
+                <h6
                   css={css`
                     margin: 0;
                   `}
                 >
                   {node.frontmatter.comment}
-                </h4>
+                </h6>
               </Link>
               <Divider />
             </div>
