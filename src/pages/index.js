@@ -70,13 +70,13 @@ export default function Home({ data }) {
                       ))}
                   </p>
                 </h5>
-                <p
+                <h4
                   css={css`
                     margin: 0;
                   `}
                 >
                   {node.frontmatter.comment}
-                </p>
+                </h4>
               </Link>
               <Divider />
             </div>
