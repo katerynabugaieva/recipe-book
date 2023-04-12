@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   background-color: ${({ theme }) => (theme === "light" ? "lavenderblush" : "#000")};
 
-  height: 100wh;
   h1,
   h2,
   h3,
