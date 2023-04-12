@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     color: ${({ theme }) => (theme === "dark" ? "#F0FFFF" : "#212121")};
   }
 
-  h5 {
+  h5, h6 {
     color: ${({ theme }) => (theme === "dark" ? "#e07b39" : "#8fb3b3")};
   }
 
