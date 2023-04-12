@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Wrapper = styled.div`
   margin: 0 auto;
-  background-color: ${({ theme }) => (theme === "light" ? "lavenderblush" : "#000")};
+  background-color: ${({ theme }) => (theme === "light" ? "#f2fff2" : "#737d64")};
 
   h1,
   h2,
