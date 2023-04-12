@@ -8,7 +8,7 @@ const Items = styled.li`
     font-size: 12px;
     line-height: 110%;
     color: #ffffff;
-    background: #1979a9;
+    background: #8fb3b3;
     border-radius: 16px;
     border: 0;
     padding: 9px 14px;
