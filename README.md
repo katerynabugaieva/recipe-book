@@ -33,5 +33,6 @@
 ## 💫 Deploy
 
 [![Look at netify](https://www.netlify.com/img/deploy/button.svg)](https://tasty-tasty-app.netlify.app/)
+https://tasty-tasty-app.netlify.app/
 
 <!-- AUTO-GENERATED-CONTENT:END -->
