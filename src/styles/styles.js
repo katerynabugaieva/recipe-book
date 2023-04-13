@@ -19,4 +19,8 @@ export const Wrapper = styled.div`
   p {
     font-size: 12px;
   }
+  
+  a {
+    color: ${({ theme }) => (theme === "dark" ? "#F0FFFF" : "#212121")};
+  }
 `
