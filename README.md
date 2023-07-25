@@ -6,6 +6,8 @@
 
 ## 🚀 Quick start
 
+Besides the fact it's Gatsby, the oldest version, Garsby doesn't run. Shame
+
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
