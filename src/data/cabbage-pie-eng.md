@@ -32,7 +32,8 @@ milk, yeast, sugar, salt
 
 After 20 minutes, add the melted margarine and eggs. Add the flour. Knead for 10 minutes and leave in a warm place for 2 hours
 
-Filling:
+### Filling
+
 Shred cabbage. Fry onions for 5 minutes, then carrots, another 5 minutes, then cabbage. Add a glass of water and simmer for 15 minutes.
 
 When the dough is ready, stretch it out, put the filling in the middle, fold it over, turn the pie over, and roll it out a little.
