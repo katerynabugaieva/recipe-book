@@ -26,7 +26,9 @@ carrot
 
 ## Preparation
 
-Dough: milk, yeast, sugar, salt
+### Dough
+
+milk, yeast, sugar, salt
 
 After 20 minutes, add the melted margarine and eggs. Add the flour. Knead for 10 minutes and leave in a warm place for 2 hours
 
