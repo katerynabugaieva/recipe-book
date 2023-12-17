@@ -18,7 +18,8 @@ flour 700g
 sugar 2st l  
 margarine or butter 100g
 
-The filling:  
+### Filling
+
 cabbage 600-700g  
 onion  
 carrot
