@@ -7,9 +7,10 @@ tasteRating: "5"
 effortRating: "2"
 ---
 
-## Ingredients.
+## Ingredients
 
-For the dough:  
+### Dough
+
 warm milk 350ml  
 sous vide 10g  
 flour 700g  
