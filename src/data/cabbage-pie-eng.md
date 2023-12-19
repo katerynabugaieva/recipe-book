@@ -15,12 +15,12 @@ sous vide 10g
 flour 700g  
 2 eggs  
 sugar 2st l  
-margarine or butter 100g  
+margarine or butter 100g
 
-The filling: 
+The filling:  
 cabbage 600-700g  
 onion  
-carrot  
+carrot
 
 ## Preparation
 
