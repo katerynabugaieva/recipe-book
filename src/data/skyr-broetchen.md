@@ -9,11 +9,10 @@ effortRating: "1"
 
 ## Ingridients
 
-Skyr 500mg   
-Packpulver - 1 Päckchen
-Mehl (Dinkel 630/ Weizen 405) - 290g
+Skyr 500mg  
+Packpulver - 1 Päckchen  
+Mehl (Dinkel 630/ Weizen 405) - 290g  
 Bischen Salz
- 
 
 ## Cooking process
 
