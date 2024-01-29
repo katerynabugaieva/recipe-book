@@ -2,7 +2,7 @@
 title: "Baked Potatoes (Klopotenko)"
 type: "Garnish"
 comment: "Potatoes in the oven"
-tags: ["Delicious", "Klopotenko" ].
+tags: ["Delicious", "Klopotenko" ]
 tasteRating: "5"
 effortRating: "2"
 ---
