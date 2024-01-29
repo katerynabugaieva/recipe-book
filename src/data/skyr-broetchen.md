@@ -1,7 +1,7 @@
 ---
 title: "Skyr brötchen"
 type: "Brötchen"
-comment: "Quicke and tasty"
+comment: "Quick and tasty"
 tags: ["Tasty"]
 tasteRating: "5"
 effortRating: "1"
