@@ -22,3 +22,5 @@ effortRating: "4"
 
 Поставить в разогретую до 180 градусов духовку. 
 Распустить соус, каждые 20 минут переворачивать  
+
+https://www.koch-mit.de/kueche/schweinebraten/  
