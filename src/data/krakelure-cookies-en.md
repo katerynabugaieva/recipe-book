@@ -36,5 +36,8 @@ The dough will be quite sticky and liquid. Now it's kind of weird to make biscui
 Ideally overnight, but an hour is also optimal. By the time the dough has finished relaxing, turn the oven up to 170 degrees.
 
 All that's left is to roll balls out of the dough, slightly larger than walnuts, roll them in icing sugar and bake. icing sugar does not carry a strong flavour load, but without it you can't achieve this cool effect of craquelure.   
+
+Important: leave space between the biscuits as they increase in size during baking.   
+
 By the way, these biscuits are often baked during the Christmas season, adding mint flavouring for brightness and freshness.
 I have set myself a clear 12 minutes, when the biscuits are baked almost completely, leaving a small core of brownie-like pulling in the centre. You can over-dry the biscuits and then just dip them in milk and enjoy them like that. That's not a bad thing, though.
